@@ -1,0 +1,27 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+
+# Ignore test output files
+test-output/
+
+# Ignore browser-specific driver executables (e.g., chromedriver, geckodriver)
+chromedriver/
+geckodriver/
+edgedriver/
+safaridriver/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore npm lock file
+package-lock.json
+
+# Ignore any other build artifacts or temporary files
+*.log
+*.swp
+*.swo
+.DS_Store
