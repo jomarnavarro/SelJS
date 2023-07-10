@@ -30,8 +30,6 @@ describe('Post Functionality', () => {
         await homePage.createPost(message);
         const isPostVisible = await homePage.verifyPostExists(message);
         expect(isPostVisible).to.be.true;
-
-
     });
 
 });
